@@ -1,0 +1,22 @@
+<form method='POST' action='http://localhost:8080/post'>
+<input type="text" placeholder="tel number" value="1233"/>
+<input type="text" placeholder="code" value="3838"/>
+<button type='submit'>submit</button>
+</form>
+<!--
+<script>
+var tel=document.querySelectorAll('input')[0]
+var code=document.querySelectorAll('input')[1]
+  document.querySelector('button').onclick=async()=>{
+alert(code.value)
+    alert('init')
+    await fetch('http://localhost:8080/post',{
+      method:"POST",
+      body:{
+       tel:tel.value, 
+       code:code.value
+     }
+    })
+  
+  }
+</script>-->
